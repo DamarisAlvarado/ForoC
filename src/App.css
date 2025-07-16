@@ -1,7 +1,15 @@
+@import "tailwindcss";
+@import 'animate.css';
+
+body{
+  background-color: #03031c;
+  color: white;
+  
+}
 #root {
-  max-width: 1280px;
+  font-family:"Poppins", sans-serif;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -39,4 +47,22 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/*apartado login*/
+#btonLogin{
+  background-color:#03031c;
+  border: none;
+  animation: puffIn 10s;
+}
+a{
+  color: #03031c;
+}
+a:hover{
+  color: #6d6de5;
+
+}
+#principal,#usuario:hover{
+  color: #03031c;
+  
 }
